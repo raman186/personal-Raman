@@ -1,21 +1,11 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-// import Vector1 from "../../img/Vector1.png";
-// import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
-// import glassesimoji from "../../img/glassesimoji.png";
+import Vector1 from "../../img/Vector1.png";
+import Vector2 from "../../img/Vector2.png";
+import coading from "../../img/mst-gif.gif";
 import thumbup from "../../img/thumbup.png";
-// import code from "../../img/code.png";
-import Resume from '../Skills/resume.pdf'
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
-import Github from "../../img/github.png";
-import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
-import Email from "../../img/email.png";
-// import EmailLogo from "../../img/emailLogo.png";
-
-
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -28,7 +18,7 @@ const Intro = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="Intro" id="Intro">
+    <div className="Intro" id="home">
       <div className="i-left">
         <div className="i-name">
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
@@ -37,30 +27,25 @@ const Intro = () => {
           I am a Full Stack Developer, passionate about building digital products
            that improve everyday experience for people.
           </span>
-        </div>
-        <div className="intro-button">
-          <div>        <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Hire me</button>
-        </Link></div>
-        <div>        </div>
+        
+          <div>        
+            <Link to="contact" smooth={true} spy={true}>
+              <button className="button i-button" style={{margin:"2rem"}}>Hire me</button>
+            </Link>
+            <a href="https://drive.google.com/file/d/1Xuj-DiXOcgdp-1R_gQo0bSremKxLsSz8/view?usp=sharing" target="blank">
+              <button className="button s-button"> View Resume </button>
+            </a>
 
-
-
-        </div>
-
-        {/* social icons */}
-        <div className="i-icons">
-          <a href="https://github.com/raman186"><img src={Github} alt=""  target="blank"/></a>
-          <a href="https://www.linkedin.com/in/raman-goyal-97b959150/" target="blank"><img src={LinkedIn} alt="" /></a>
-          <a href="https://www.linkedin.com/in/raman-goyal-97b959150/" target="blank"></a><img src={Instagram} alt="" />
-          <a href="mailto:goyalraman755@gmail.com" title="goyalraman755@gmail.com" target="blank"></a><img src={Email} alt="" />
-        </div>
+          </div>
+        <div>
       </div>
+    </div>
+  </div>
       {/* right image side */}
       <div className="i-right">
-        <img src=""alt="" />
-        <img src="" alt="" />
-        <img src={boy} alt="" />
+        <img src={Vector1} alt="" />
+        <img src={Vector2} alt="" />
+        <img src={coading} alt="" />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
@@ -72,7 +57,7 @@ const Intro = () => {
 
         <motion.div
           initial={{ top: "-4%", left: "74%" }}
-          whileInView={{ left: "68%" }}
+          whileInView={{ left: "60%" }}
           transition={transition}
           className="floating-div"
         >

@@ -1,13 +1,13 @@
 import React from "react";
 import Toggle from "../Toggle/Toggle";
-import { themeContext } from "../../Context";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import RG from '../../img/rr.jpg'
 
+
 const navbar = () => {
   return (
-    <div className="n-wrapper" id="Navbar">
+    <div className="n-wrapper" id="Navbar" >
       {/* left */}
       <div className="n-left">
         <div className="n-logo">
@@ -24,6 +24,11 @@ const navbar = () => {
             <li>
               <Link activeClass="active" to="home" spy={true} smooth={true}>
                 Home
+              </Link>
+            </li>
+            <li>
+              <Link to="about" spy={true} smooth={true}>
+                About
               </Link>
             </li>
             <li>
