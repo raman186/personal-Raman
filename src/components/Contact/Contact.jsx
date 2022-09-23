@@ -49,6 +49,12 @@ const Contact = () => {
               <a href="https://www.linkedin.com/in/raman-goyal-97b959150/" target="blank"><img src={LinkedIn} alt="" /></a>
               <a href="mailto:goyalraman755@gmail.com" title="goyalraman755@gmail.com" target="blank"><img src={Email} alt="" /></a>
           </div>
+          <div className="awesome">
+            <a  href="https://drive.google.com/file/d/1Xuj-DiXOcgdp-1R_gQo0bSremKxLsSz8/view?usp=sharing" target="blank">
+              <button className="button s-button" style={{marginLeft:'18%'}} > Resume </button>
+            </a>
+          </div>
+            
           </div>
           
           <div

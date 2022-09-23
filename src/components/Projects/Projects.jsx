@@ -5,7 +5,7 @@ import "swiper/css";
 import headphoneZone from "../../img/headphoneZone.png";
 import spotify from "../../img/spotify.png";
 import unacademy from "../../img/unacademy.png";
-// import airbnb from "../../img/airbnb.png";
+import weatherApp from "../../img/weatherApp.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -19,42 +19,7 @@ const Portfolio = () => {
       
     
       <div className="project-slider">
-        <div className="project-items">
-        <img src={headphoneZone} alt="" className="demo-image" />
-          <br />
-          <br />
-          
-          <span style={{color:"orange"}}>Headphone Zone</span>
-          <br />
-          <br />
-          <div className="features">
-            <span style={{color: darkMode?'white': ''}}> Summary-</span><br />
-            <span style={{color:"gray", fontSize:".8rem"}}>  
-              A young company of music lovers, for music lovers. Let’s help you find your dream gear. 
-              Curated products. 250,000+ happy customers. 70+ brands. Express shipping. Easy returns. 
-              We're Customer Obsessed.
-            </span>
-            <br />
-          </div>
-          <div className="features">
-            <span style={{color: darkMode?'white': ''}}> Features -</span><br />
-            <span style={{color:"gray", fontSize:".8rem"}}> ●	Social Sign-in/Sign-up</span>
-            <span style={{color:"gray", fontSize:".8rem"}}> ●	Add to Cart Functionality</span>
-            <span style={{color:"gray", fontSize:".8rem"}}> ●	Increase and Decrease Functionality for products</span><br /><br />
-          </div>
-          <div className="tech-stack">
-            <span style={{color: darkMode?'white': ''}}> Tech Stack Used -</span><br />
-            <span style={{color:"gray", fontSize:".8rem"}}> 	HTML</span> |
-            <span style={{color:"gray", fontSize:".8rem"}}> 	CSS</span> |
-            <span style={{color:"gray", fontSize:".8rem"}}> 	JavaScript</span><br /><br />
-          </div>
-
-          <div className="buttons">
-            <a href='https://unique-sprite-5a80fe.netlify.app/' target="blank"><button className="c-button" >Live</button></a>
-            <a href='https://github.com/rgoyal0001/Headphone-Zone-Clone' target="blank"><button className="c-button" >Code</button></a>
-          </div>
-          
-        </div>
+       
         <div className="project-items">
         <img src={spotify} alt=""  className="demo-image"/>
           <br />
@@ -126,6 +91,79 @@ const Portfolio = () => {
             <a href='https://unacademy-explore-clone.netlify.app/' target="blank"><button className="c-button" >Live</button></a>
             <a href='https://github.com/Irshad-1/unacademy-clone.git' target="blank"><button className="c-button" >Code</button></a>
           </div>
+          
+        </div>
+        <div className="project-items">
+        <img src={headphoneZone} alt="" className="demo-image" />
+          <br />
+          <br />
+          
+          <span style={{color:"orange"}}>Headphone Zone</span>
+          <br />
+          <br />
+          <div className="features">
+            <span style={{color: darkMode?'white': ''}}> Summary-</span><br />
+            <span style={{color:"gray", fontSize:".8rem"}}>  
+              A young company of music lovers, for music lovers. Let’s help you find your dream gear. 
+              Curated products. 250,000+ happy customers. 70+ brands. Express shipping. Easy returns. 
+              We're Customer Obsessed.
+            </span>
+            <br />
+          </div>
+          <div className="features">
+            <span style={{color: darkMode?'white': ''}}> Features -</span><br />
+            <span style={{color:"gray", fontSize:".8rem"}}> ●	Social Sign-in/Sign-up</span>
+            <span style={{color:"gray", fontSize:".8rem"}}> ●	Add to Cart Functionality</span>
+            <span style={{color:"gray", fontSize:".8rem"}}> ●	Increase and Decrease Functionality for products</span><br /><br />
+          </div>
+          <div className="tech-stack">
+            <span style={{color: darkMode?'white': ''}}> Tech Stack Used -</span><br />
+            <span style={{color:"gray", fontSize:".8rem"}}> 	HTML</span> |
+            <span style={{color:"gray", fontSize:".8rem"}}> 	CSS</span> |
+            <span style={{color:"gray", fontSize:".8rem"}}> 	JavaScript</span><br /><br />
+          </div>
+
+          <div className="buttons">
+            <a href='https://unique-sprite-5a80fe.netlify.app/' target="blank"><button className="c-button" >Live</button></a>
+            <a href='https://github.com/rgoyal0001/Headphone-Zone-Clone' target="blank"><button className="c-button" >Code</button></a>
+          </div>
+          
+        </div>
+        <div className="project-items">
+        <img src={weatherApp} alt="" className="demo-image" />
+          <br />
+          <br />
+          
+          <span style={{color:"orange"}}>Weather App</span>
+          <br />
+          <br />
+          <div className="features">
+            <span style={{color: darkMode?'white': ''}}> Summary-</span><br />
+            <span style={{color:"gray", fontSize:".8rem"}}>  
+              This is a simple project to check Weather report of a city.
+              You can check weather as well as location of a city that you want to know.
+              This is build by using simply using HTML, CSS and JavaScript.
+            </span>
+            <br />
+          </div>
+          <div className="features">
+            <span style={{color: darkMode?'white': ''}}> Features -</span><br />
+            <span style={{color:"gray", fontSize:".8rem"}}> ●	Check Weather Report</span>
+            <span style={{color:"gray", fontSize:".8rem"}}> ●	Find Location </span>
+          </div>
+          <br />
+          <div className="tech-stack">
+            <span style={{color: darkMode?'white': ''}}> Tech Stack Used -</span><br />
+            <span style={{color:"gray", fontSize:".8rem"}}> 	HTML</span> |
+            <span style={{color:"gray", fontSize:".8rem"}}> 	CSS</span> |
+            <span style={{color:"gray", fontSize:".8rem"}}> 	JavaScript</span><br /><br />
+          </div>
+
+          <div className="buttons">
+            <a href='https://weather-app-rgoyal0001.netlify.app/' target="blank"><button className="c-button" >Live</button></a>
+            <a href='https://github.com/rgoyal0001/weather-app' target="blank"><button className="c-button" >Code</button></a>
+          </div>
+          <br />
           
         </div>
       </div>

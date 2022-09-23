@@ -81,12 +81,13 @@
 
 .sec{
     display: flex;
-    gap: 25px;
+    gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
     margin-top: 4rem;
+    margin: 8px;
 }
 .skills-list{
   /* border: 1px solid red; */

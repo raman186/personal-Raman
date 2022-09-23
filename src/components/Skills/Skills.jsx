@@ -43,7 +43,6 @@ const Skills = () => {
             <SkillCard url='https://cdn.svgporn.com/logos/c.svg' text="C" />
             <SkillCard url='https://cdn.svgporn.com/logos/c-plusplus.svg' text="C++" />
             <SkillCard url='https://cdn.svgporn.com/logos/mongodb.svg' text="MongoDb" />
-            <SkillCard url='https://cdn.svgporn.com/logos/mysql.svg' text="SQL" />
             <SkillCard url='https://cdn.svgporn.com/logos/nodejs.svg' text="Node" />
             <SkillCard url='https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png' text='Bootstrap' /> 
           </div>
@@ -60,8 +59,8 @@ const Skills = () => {
             <SkillCard url="https://www.apkmirror.com/wp-content/uploads/2019/01/5c5b88516489f.png" text='Canva' />
             <SkillCard url="https://www.netlify.com/v3/img/components/logomark.png" text="Netlify" />
             <SkillCard url='https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg' text='Chakra-UI' />
-            <SkillCard url='https://mui.com/static/logo.png' text='Material-UI' />
-            <SkillCard url="https://static.vecteezy.com/system/resources/previews/001/200/668/original/triangle-rounded-png.png" text="Vercel" />
+            {/* <SkillCard url='https://mui.com/static/logo.png' text='Material-UI' /> */}
+            {/* <SkillCard url="https://static.vecteezy.com/system/resources/previews/001/200/668/original/triangle-rounded-png.png" text="Vercel" /> */}
             <SkillCard url="https://uploads.sitepoint.com/wp-content/uploads/2016/04/1461122387heroku-logo.jpg" text="Heroku" />
           </div>
         </div>

@@ -33,9 +33,8 @@ const Intro = () => {
               <button className="button i-button" style={{margin:"2rem"}}>Hire me</button>
             </Link>
             <a href="https://drive.google.com/file/d/1Xuj-DiXOcgdp-1R_gQo0bSremKxLsSz8/view?usp=sharing" target="blank">
-              <button className="button s-button"> View Resume </button>
+              <button className="button s-button"> Check CV </button>
             </a>
-
           </div>
         <div>
       </div>
