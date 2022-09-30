@@ -6,6 +6,7 @@ import headphoneZone from "../../img/headphoneZone.png";
 import spotify from "../../img/spotify.png";
 import unacademy from "../../img/unacademy.png";
 import weatherApp from "../../img/weatherApp.png";
+import grocery from "../../img/grocery.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -162,6 +163,46 @@ const Portfolio = () => {
           <div className="buttons">
             <a href='https://weather-app-rgoyal0001.netlify.app/' target="blank"><button className="c-button" >Live</button></a>
             <a href='https://github.com/rgoyal0001/weather-app' target="blank"><button className="c-button" >Code</button></a>
+          </div>
+          <br />
+          
+        </div>
+        <div className="project-items">
+        <img src={grocery} alt="" className="demo-image" />
+          <br />
+          <br />
+          
+          <span style={{color:"orange"}}>Grocery App</span>
+          <br />
+          <br />
+          <div className="features">
+            <span style={{color: darkMode?'white': ''}}> Summary-</span><br />
+            <span style={{color:"gray", fontSize:".8rem"}}>  
+              This is a simple single page project to add and remove your grocery items in a list.
+               This is build by using HTML, CSS, JavaScript and React.
+            </span>
+            <br />
+            <br/>
+          </div>
+          <div className="features">
+            <span style={{color: darkMode?'white': ''}}> Features -</span><br />
+            <span style={{color:"gray", fontSize:".8rem"}}> ●	Add New Items</span>
+            <span style={{color:"gray", fontSize:".8rem"}}> ●	Remove items from the list</span>
+          </div>
+          <br />
+          <div className="tech-stack">
+            <span style={{color: darkMode?'white': ''}}> Tech Stack Used -</span><br />
+            <span style={{color:"gray", fontSize:".8rem"}}> 	HTML</span> |
+            <span style={{color:"gray", fontSize:".8rem"}}> 	CSS</span> |
+            <span style={{color:"gray", fontSize:".8rem"}}> 	JavaScript</span> |
+            <span style={{color:"gray", fontSize:".8rem"}}> 	React</span> 
+
+            <br /><br />
+          </div>
+
+          <div className="buttons">
+            <a href='https://gocery-list.netlify.app/' target="blank"><button className="c-button" >Live</button></a>
+            <a href='https://github.com/rgoyal0001/grocery-list' target="blank"><button className="c-button" >Code</button></a>
           </div>
           <br />
           
