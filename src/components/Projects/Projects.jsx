@@ -54,8 +54,8 @@ const Portfolio = () => {
             <span style={{color:"gray", fontSize:".8rem"}}> 	JSON</span><br /><br />
           </div>
           <div className="buttons">
-            <a href='https://rgoyal0001.github.io/Spotify_Clone/' target="blank"><button className="c-button" >Live</button></a>
-            <a href='https://github.com/rgoyal0001/Spotify_Clone' target="blank"><button className="c-button" > Code</button></a>
+            <a href='https://spotify-webapp-clone.netlify.app/' target="blank"><button className="c-button" >Live</button></a>
+            <a href='https://github.com/deepaksahu3698/Spotify_webapp_Clone' target="blank"><button className="c-button" > Code</button></a>
           </div>
           
         </div>
