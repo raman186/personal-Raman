@@ -90,6 +90,7 @@ const Portfolio = () => {
           </div>
           <div className="buttons">
             <a href='https://unacademy-explore-clone.netlify.app/' target="blank"><button className="c-button" >Live</button></a>
+            {/* <a href='/' onClick={()=>{alert("There is some issue on the server side of this project. I am working on it.")}}><button className="c-button" >Live</button></a> */}
             <a href='https://github.com/Irshad-1/unacademy-clone.git' target="blank"><button className="c-button" >Code</button></a>
           </div>
           
